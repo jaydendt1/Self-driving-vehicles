@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>slam_pkg</name>
+  <version>1.0.0</version>
+  <description>Opdracht 2 — Odometry + Vision SLAM + EKF sensorfusie voor de Duckiebot</description>
+  <maintainer email="student@example.com">Student</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>rospy</depend>
+  <depend>std_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>nav_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>cv_bridge</depend>
+  <depend>tf</depend>
+  <depend>tf2_ros</depend>
+  <depend>duckietown_msgs</depend>
+</package>
