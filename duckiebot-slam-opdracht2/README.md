@@ -1,14 +1,5 @@
 # Duckiebot — Portfolio-opdracht 2: Odometry + SLAM + EKF
 
-Een schoon, vers Duckietown DTProject voor Opdracht 2 (Odometry,
-vision-based monocular SLAM, sensorfusie).
-
-> **Waarom een nieuw project?** Vorige project (`slam_fixed`) was
-> gebouwd rond lane-following en daar werkte de camera niet goed. Dit
-> project is opnieuw opgezet met **dubbele camera-topic subscribers**
-> (compressed én raw), een **diagnostic node** om snel te zien welke
-> sensoren wel/niet werken, en duidelijkere foutmeldingen.
-
 ## commands
 
 ```bash
